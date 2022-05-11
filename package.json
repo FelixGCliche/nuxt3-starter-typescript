@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint --ext .ts,.tsx,.js,.vue .",
+    "lint:fix": "yarn eslint --fix",
+    "format": "prettier --config .prettierrc --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nuxt": "^3.0.0-rc.3",
+    "prettier": "^2.6.2",
+    "sass": "^1.50.0"
+  },
+  "license": "MIT"
+}
